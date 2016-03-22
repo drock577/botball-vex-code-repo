@@ -17,6 +17,7 @@ int main()
   	wait_for_milliseconds(1000);
   	set_servo_position(0,randnum);
   	x++;
+  	printf("%d"m randnum);
 	}
 	
   	disable_servos();
