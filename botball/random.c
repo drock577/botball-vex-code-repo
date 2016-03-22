@@ -7,7 +7,7 @@ int main()
 {
   	printf("random test");
   	
-  	int randnum;
+  	int randnum,x;
 	srand ( time(NULL) );
 	randnum = rand() % 2000 + 700;
   	
@@ -17,7 +17,7 @@ int main()
   	wait_for_milliseconds(1000);
   	set_servo_position(0,randnum);
   	x++;
-  	printf("%d"m randnum);
+  	printf("%d", randnum);
 	}
 	
   	disable_servos();
